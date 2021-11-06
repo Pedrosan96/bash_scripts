@@ -6,7 +6,7 @@ echo $1   #la variable 1 es el primer argumento de entreada
 echo $2   #la variable 2 es el segundo argumento de entreada
 echo $#   #la variable # es el numero de argumentos de entrada
 echo $@   #la variable @ despliega las entradas
-[ 1 -eq 2 ]   #esta es una operacion de igualacion de las dos primeras entradas
+[ $1 -eq $2 ]   #esta es una operacion de igualacion de las dos primeras entradas
 echo $?   #la variable ? tiene si el utimo proceso fue correcto(0) o incorrecto (1)
 echo $$   # la variable $ tiene el identificador del proceso del script
 echo $USER  #la variable USER tiene el nombre del usuario loggeado
