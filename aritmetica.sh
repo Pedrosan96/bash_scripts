@@ -14,3 +14,8 @@ time echo $((43*76/32))	#Se utiliza el comando time para desplegar el tiempo
 
 echo "12*32" | bc	#se realizan las operaciones enviandolas a la linea de 
 			#comandos de BC(Basic Calculator)
+			#Cabe resaltar que de esta manera es mucho mas rapido
+
+echo "s(3.141593)+c(3.141593)" | bc -l	#Ahora se realizan operaciones
+				#trigonometricas (c-> coseno y s-> seno)
+				#mediante la libreria matematica "-l"
